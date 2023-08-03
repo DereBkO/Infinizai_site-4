@@ -1,0 +1,80 @@
+.shop
+	min-height: 1072px
+	background: url('@img/img/fortnite.jpg') center (center / cover) no-repeat
+	
+	&_content
+		padding: 136px 58px 130px 58px
+
+	&_text
+		font-family: Orbitron
+		font-weight: 400
+		font-size: 16px
+		color: #57B8FF
+		text-align: center
+		span
+			position: relative
+			&::before
+				content: ''
+				width: 20px
+				height: 29px
+				position: absolute
+				left: -34px
+				top: -4px
+				background: url('@img/icons/fire.svg') center (center / cover) no-repeat
+
+	&_title
+		margin: 22px auto 0 auto
+		width: 716px
+		font-family: Orbitron
+		font-weight: 400
+		font-size: 64px
+		line-height: 74px
+		text-align: center
+		color: #fff
+
+	&_subtitle
+		margin: 39px auto 0 auto
+		width: 698px
+		font-family: Orbitron
+		font-weight: 400
+		font-size: 20px
+		line-height: 32px
+		text-align: center
+		color: rgba(223, 223, 223, 0.8)
+
+	&_block
+		display: flex
+		justify-content: space-between
+		margin-top: 61px
+		&:last-child
+			margin-top: 32px
+		&_blocks
+			padding: 35px 36px 32px 80px
+			width: 586px
+			height: 144px
+			background: rgba(255, 255, 255, 0.15)
+			border-radius: 20px
+			&:nth-child(2)
+				margin-left: 32px
+		&_title
+			font-family: Orbitron
+			font-weight: 400
+			font-size: 32px
+			color: #fff
+		&_descr
+			margin-top: 19px
+			font-family: Orbitron
+			font-weight: 400
+			font-size: 18px
+			line-height: 28px
+			color: rgba(223, 223, 223, 0.8)
+
+.image
+	position: relative
+	&::before
+		content: ''
+		width: 28.28px
+		height: 28.28px
+		position: absolute
+		left: -45px
+		background: url('@img/icons/romb.svg') center (center / cover) no-repeat
